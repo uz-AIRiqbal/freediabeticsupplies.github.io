@@ -1,0 +1,864 @@
+@charset "utf-8";
+/* TEMPLATE */
+*					{ margin:0; padding:0; border:0; outline:0;}
+html, body			{ }
+/** COLORS 		**/
+.colorWhite			{ background-color:#F0EFEA; }
+.colorGray			{ color:#2C3C39; }
+.colorGrayBG		{ background-color:#2C3C39; color:#F0EFEA; }
+.colorONE			{ background-color:#34495e;}
+.colorTWO			{ background-color:#3498db;}
+.colorTHREE			{ background-color:#1abc9c;}
+.colorFOUR			{ background-color:#95a5a6;}
+.colorFIVE			{ background-color:#e74c3c;}
+.colorSIX			{ background-color:#f39c12;}
+/** BUTTONS     **/
+.button				{  border:1px solid #2C3C39; background-color:rgba(255,130,25,.0); border-radius:5px; font-family: 'Montserrat', sans-serif;}
+.button:hover		{ }
+.button a			{  color:#2C3C39}
+.button a:hover		{  text-decoration:none; color:#2C3C39;}
+.buttonExclusive	{  background-color:#2C3C39; border-radius:5px; font-family: 'Montserrat', sans-serif; border:1px solid #2C3C39;} 
+.buttonExclusive a	{ 	color:#F0EFEA; } 
+.buttonExclusive a:hover	{ text-decoration:none; color:#F0EFEA} 
+.buttonExclusive:hover  { background-color:#18A300;} 
+/** HEADINGS      */
+.Heading				{ font-family: 'Baloo Tamma', cursive; color:#2C3C39}
+/***************** Default Styles *******************/
+/* N A V I G A T I O N       */
+.navbar-custom					 													{ background-color:#F0EFEA;}
+.navbar-nav li a			 														{ color:#2C3C39; font-family: 'Montserrat', sans-serif; }
+.navbar-nav li a span		 														{ color:#F00; font-family: 'Montserrat', sans-serif;}
+.navbar-custom .navbar-brand 														{ color:#2C3C39; font-family: 'Courgette', cursive; } 
+	 /*NAVIGATION HOVER SETTINGS*/
+.navbar-custom .navbar-brand:hover 													 { color:#2C3C39;} 
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus { background-color: #F0EFEA;  color: #2C3C39; }
+.navbar-custom .navbar-nav > .active												 { color:#FFF; background:#fff; }
+.navbar-custom .navbar-nav > .active a 												 { color:#FFF;  background:#FC4646; }
+	 /*NAVIGATION HOVER SETTINGS (END)*/
+/* N A V I G A T I O N (END) */
+/* WELCOME BANNER			 */
+#WelcomeBannerCF				{ background-color:#F0EFEA; }
+#WelcomeBannerContainer			{ }
+#WelcomeBannerColumnSix			{ text-align:center;}
+#WelcomeBannerColumnSix	 img	{}
+#WelcomeBannerColumnSix	 h1		{ padding:0px; margin:0px}
+#WelcomeBannerColumnSix	 p	span{ color:#F00; padding:0px; margin:0px}
+#WelcomeBannerColumnSix	 p		{ font-family: 'Montserrat', sans-serif; padding:0px; margin:0px}
+/* WELCOME BANNER	(END)    */
+/* SECTION ONE				 */
+#SectionOneContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionOneColumn				{ }
+#SectionOneColumnFour			{ }
+#SectionOneColumnFour img		{ }
+#SectionOneColumnSix h2			{ }
+#SectionOneColumnSix ul li		{ color:#F00; list-style-type:none; font-family: 'Montserrat', sans-serif;}
+#SectionOneColumnSix ul li	span {}
+#SectionOneColumnSix p			{ font-family: 'Montserrat', sans-serif; text-align:justify;}
+#ColumnSixSmallColumn			{ text-align:center;}
+#ColumnSixSmallColumn	img		{ }
+#ColumnSixSmallColumn	p span	{ color:#F00; text-align:center; }
+#ColumnSixSmallColumn	p		{ font-family: 'Montserrat', sans-serif; text-align:center; font-weight:bold;}
+/* SECTION ONE		(END)	 */
+/* SQUARES					 */
+#SquaresCF						{ }
+#SquaresRow						{ }
+#SquaresColumn					{ padding:0px;}
+#SquaresColumn	h5				{ color:#FFF; font-weight:bold; font-family: 'Audiowide', cursive;}
+#SquaresColumn	p				{ color:#FFF; font-family: 'Montserrat', sans-serif;}
+#SquaresColumn	img				{ }
+/* SQUARES			(END)	 */
+/* SECTION TWO				 */
+#SectionTwoContainer			{ }
+#SectionTwoColumn				{ text-align:center;}
+#SectionTwoColumn h2			{}
+#SectionTwoColumn p span		{ }
+#SectionTwoColumn img			{ }
+#SectionTwoColumn p				{ font-family: 'Montserrat', sans-serif;}
+/* SECTION TWO		(END)    */
+/* SALE BANNER				 */
+#SaleBannerCF					{  background-color:#5FA277;}
+#SaleBannerContainer			{}
+#SaleBannerRow					{}
+#SaleBannerColumn				{}
+#SaleBannerColumn	img			{}
+.SaleBannerHeading				{ font-family: 'Baloo Tamma', cursive;}
+.SaleBannerP					{ font-family: 'Montserrat', sans-serif;}
+#SaleBannerColumn ul 			{ display:inline-block}
+#SaleBannerColumn ul li			{ list-style-type:none; float:left;}
+#SaleBannerColumn ul li img		{ float:left;}
+#SaleBannerColumn ul li	p		{ font-family: 'Baloo Tamma', cursive; color:#fff;}
+#SaleBannerColumn	p			{  }
+#SaleBannerColumn	p	span	{ font-family: 'Montserrat', sans-serif; color:#fff}
+/* SALE BANNER		(END)	 */
+/* PRODUCTS                  */
+#ProductContainer			{ margin-top:100px; margin-bottom:100px; }
+#ProductRow					{}
+#ProductColumn				{}
+.col-item					{    border: 1px solid #E1E1E1; border-radius: 5px; background: #B1D691;  }
+.col-item .photo img		{	 margin: 0 auto; width: 100%;}
+.col-item .info				{	 padding: 10px; border-radius: 0 0 5px 5px; margin-top: 1px; }
+.col-item:hover .info 		{    background-color: #B1D691;}
+.col-item .price			{   /*width: 50%;*/   float: left;   margin-top: 5px;}
+.col-item .price a			{    line-height: 20px;    margin: 0; font-weight:bold; color:#2C3C39;}
+.col-item .price p			{    line-height: 20px;    margin: 0; }
+.col-item .price a:hover	{    text-decoration:none; }
+.col-item .price h5			{    line-height: 20px;    margin: 0; }
+.price-text-color			{	 font-weight:bold; }
+.col-item .info .rating		{     color: #777;   }
+.col-item .rating			{    /*width: 50%;*/  float: left; font-size: 17px; text-align: right; line-height: 52px;  margin-bottom: 10px; height: 52px; }
+.col-item .separator		{    border-top: 1px solid #E1E1E1; }
+.clear-left					{    clear: left; }
+.col-item .separator p		{    line-height: 20px;    margin-bottom: 0;    margin-top: 10px;    text-align: center; }
+.col-item .separator p i	{    margin-right: 5px; }
+.col-item .btn-add			{	 width: 50%;    float: left; }
+.col-item .btn-add			{    border-right: 1px solid #E1E1E1; }
+.col-item .btn-details		{    width: 50%;    float: left;    padding-left: 10px; }
+.controls					{    margin-top: 20px; }
+.separator a				{	 color:#fff}
+[data-slide="prev"]			{    margin-right: 10px; }
+/* PRODUCTS         (END)    */
+/* INPUT ADDRESS			 */
+#InputAddressCF					{ }
+#InputAddressLeft				{ background-color:#B1D691; }
+#InputAddressLeft p span		{ color:#fff; font-weight:bold; font-family: 'Acme', sans-serif;}
+#InputAddressLeft p 			{ text-align:justify; color:#fff; font-family: 'Montserrat', sans-serif; }
+#InputAddressRight				{ background-color:#5FA277; text-align:right; }
+#InputAddressRight p span		{ color:#fff; font-weight:bold; font-family: 'Acme', sans-serif;}
+#InputAddressRight p 			{ color:#fff; font-family: 'Montserrat', sans-serif;}
+#InputAddressRight ul li		{ list-style-type:none; color:#fff; font-family: 'Montserrat', sans-serif; }
+.InputAddressInput				{ font-family: 'Montserrat', sans-serif;}
+.InputAddressSubmit				{ background-color:#5FA277; border:1px solid #fff; color:#fff; font-family: 'Montserrat', sans-serif;}
+/* INPUT ADDRESS	(END)	 */
+/* FREE BANNER				 */
+#FreeBannerContainer			{ }
+#FreeBannerColumn				{ }
+.FreeBannerColumnHeader			{  background-color:#E74C3C; }
+.FreeBannerColumnPage			{  background-color:#F0EFEA; }
+.FreeBannerColumnPage	p span	{  font-family: 'Acme', sans-serif; color:#E74C3C;}
+.FreeBannerColumnPage	p		{  color:#000; font-family: 'Montserrat', sans-serif;}
+.FreeBannerForm					{ }
+#FreeBannerFormHalf				{ }
+.FreeBannerLabel				{ color:#567DE1; font-family: 'Acme', sans-serif; }
+.FreeBannerInput				{ background-color:#F0EFEA; font-family: 'Montserrat', sans-serif; border:1px solid #999; }
+.FreeBannerSubmit				{ background-color:#18A300; color:#fff; font-family: 'Acme', sans-serif;}
+.FreeBannerSubmit:hover			{ background-color:#F0EFEA; color:#18A300; border:1px solid #18A300; }
+/* FREE BANNER		(END)	 */
+/* PROMOTION POPUP			 */
+#promotion						{}
+.modal-header					{ background-color:#E74C3C;}
+#PromotionColumn				{}
+.modal-body						{ background-color:#F0EFEA;}
+#PromotionColumn p span			{ font-family: 'Acme', sans-serif; color:#E74C3C;}
+#PromotionColumn p				{ color:#000; font-family: 'Montserrat', sans-serif;}
+.PromotionBannerForm			{ }
+.promotionLabel					{ color:#567DE1;}
+.promotionInput					{ background-color:#F0EFEA; font-family: 'Montserrat', sans-serif; border:1px solid #999; padding-left:5px;}
+.promotionSumbit				{ background-color:#18A300; color:#fff; font-family: 'Acme', sans-serif; border-radius:5px;}									
+.promotionSumbit:hover			{ background-color:#F0EFEA; color:#18A300; border:1px solid #18A300;}
+/* PROMOTION POPUP  (END)	 */
+/* DIABETES					 */
+#DiabetesCF						{ background-color:#F0EFEA; }
+#DiabetesContainer				{ }
+#DiabetesColumn					{ }
+#DiabetesRow					{ }
+#DiabetesRow	h2				{ text-align:center;}
+#DiabetesRow	p	span		{ font-weight:bold; font-family: 'Montserrat', sans-serif; }
+#DiabetesRow	p				{ color:#000;  font-family: 'Montserrat', sans-serif; }
+.circle							{ background-color:#5FA277; border-radius:50px; float:left; }
+/* DIABETES			(END)    */	
+/* FOOTER					 */
+#FooterCF				{ background-color:#5FA277;}
+#FooterRow				{ }
+#FooterColumn			{ }
+#FooterColumn	p		{ }
+.FooterHeading			{ color:#fff; font-family: 'Baloo Tamma',sans-serif; text-align:center; }
+.FooterHeadingLine		{ color:#2C3C39; font-family: 'Montserrat', sans-serif; text-align:center; }
+.FooterHeadingTwo		{ color:#fff; font-family: 'Baloo Tamma',sans-serif; text-align:center; }
+.FooterHeadingThree		{ color:#fff; font-family: 'Baloo Tamma',sans-serif; text-align:center; }
+footer					{ background-color:#2C3C39; }
+footer p				{ color:#fff; font-family: 'Courgette', cursive; }
+footer p span			{ color:#fff; font-family: 'Montserrat', sans-serif; }
+/* FOOTER			(END)	 */
+/*****************************************************/
+/***************** Mobile Portrait *******************/
+/*****************************************************/
+/** BUTTONS     **/
+.button					{ padding:7px; font-size:8px; margin-top:10px}
+.buttonExclusive		{ padding:7px; margin-left:0px; font-size:8px; } 
+/** HEADINGS      */
+.Heading				{ font-size:18px;}
+/* N A V I G A T I O N       */
+.navbar-custom					 													{ padding-bottom:0px; margin-bottom:0px;}
+.navbar-nav li a			 														{  }
+.navbar-nav li a span		 														{ font-size:22px }
+.navbar-custom .navbar-brand 														{ font-size:22px} 
+	 /*NAVIGATION HOVER SETTINGS*/
+.navbar-custom .navbar-brand:hover 													 { } 
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus { }
+.navbar-custom .navbar-nav > .active												 { }
+.navbar-custom .navbar-nav > .active a 												 { }
+	 /*NAVIGATION HOVER SETTINGS (END)*/
+/* N A V I G A T I O N (END) */
+/* WELCOME BANNER			 */
+#WelcomeBannerCF				{ margin-top:0px; margin-bottom:0px;	}
+#WelcomeBannerContainer			{ 	}
+#WelcomeBannerColumnSix			{ padding-bottom:30px;}
+#WelcomeBannerColumnSix	 img	{}
+#WelcomeBannerColumnSix	 h1		{}
+#WelcomeBannerColumnSix	 p	span{ font-size:18px;}
+#WelcomeBannerColumnSix	 p		{ font-size:11px;}
+/* WELCOME BANNER	(END)    */
+/* SECTION ONE				 */
+#SectionOneContainer			{ margin-top:0px; margin-bottom:30px;}
+#SectionOneColumn				{ }
+#SectionOneColumnFour			{ }
+#SectionOneColumnFour img		{ margin-top:20px;}
+#SectionOneColumnSix h2			{ }
+#SectionOneColumnSix ul li		{ font-size:9px}
+#SectionOneColumnSix ul li	span {}
+#SectionOneColumnSix p			{ font-size:9px; }
+#ColumnSixSmallColumn			{ }
+#ColumnSixSmallColumn	img		{ height:20px; }
+#ColumnSixSmallColumn	p span	{ margin:0px; padding:0px; font-size:8px;}
+#ColumnSixSmallColumn	p		{ margin:0px; padding:0px; font-size:8px; }
+/* SECTION ONE		(END)	 */
+/* SQUARES					 */
+#SquaresCF						{ }
+#SquaresRow						{}
+#SquaresColumn					{ height:100px;}
+#SquaresColumn	h5				{ font-size:6px; padding-left:5px; }
+#SquaresColumn	p				{ font-size:6px; padding-left:5px;}
+#SquaresColumn	img				{ height:100px; width:100%;}
+/* SQUARES			(END)	 */
+/* SECTION TWO				 */
+#SectionTwoContainer			{ margin-top:30px; margin-bottom:30px;}
+#SectionTwoColumn				{ }
+#SectionTwoColumn h2			{}
+#SectionTwoColumn p span		{ font-size:9px}
+#SectionTwoColumn img			{ }
+#SectionTwoColumn p				{ font-size:9px;}
+/* SECTION TWO		(END)    */
+/* SALE BANNER				 */
+#SaleBannerCF					{  padding-top:60px; padding-bottom:60px; margin-top:30px; margin-bottom:60px}
+#SaleBannerContainer			{}
+#SaleBannerRow					{}
+#SaleBannerColumn				{}
+#SaleBannerColumn	img			{}
+.SaleBannerHeading				{ padding:0px; margin:0px; font-size:20px; margin-top:10px;}
+.SaleBannerP					{ padding:0px; margin:0px; font-size:12px;}
+#SaleBannerColumn ul 			{ margin-bottom:-30px;}
+#SaleBannerColumn ul li			{ padding-left:10px;}
+#SaleBannerColumn ul li img		{ }
+#SaleBannerColumn ul li	p		{ font-size:40px; margin-top:10px; }
+#SaleBannerColumn	p			{}
+#SaleBannerColumn	p	span	{}
+/* SALE BANNER		(END)	 */
+/* FREE BANNER				 */
+#FreeBannerContainer			{  padding-top:60px; padding-bottom:60px;}
+#FreeBannerColumn				{  }
+.FreeBannerColumnHeader			{  height:50px; }
+.FreeBannerColumnPage			{  padding-top:25px;  }
+.FreeBannerColumnPage	p span	{  font-size:14px; }
+.FreeBannerColumnPage	p		{  font-size:10px; margin:0px; }
+.FreeBannerForm					{  padding-top:20px; padding-bottom:20px; }
+#FreeBannerFormHalf				{ }
+.FreeBannerLabel				{ font-size:10px; margin:0px 0px 0px 0px; padding:0px; }
+.FreeBannerInput				{ font-size:9px; margin:0px; height:30px; width:100px; padding:0px 0px 0px 5px; margin-bottom:10px; }
+.FreeBannerSubmit				{ height:40px; width:150px; font-size:18px; border-radius:5px; }
+/* FREE BANNER		(END)	 */
+/* PROMOTION POPUP			 */
+#promotion						{}
+.modal-header					{}
+#PromotionColumn				{}
+.modal-body						{}
+#PromotionColumn p span			{ font-size:14px; }
+#PromotionColumn p				{ font-size:10px; margin:0px; }
+.PromotionBannerForm			{ padding-top:20px; padding-bottom:20px;}
+.promotionLabel					{ margin:0px; font-size:10px }
+.promotionInput					{ font-size:9px; height:30px; width:100px; margin-bottom:15px; }
+.promotionSumbit				{ font-size:18px; height:40px; width:120px; }									
+/* PROMOTION POPUP  (END)	 */
+/* INPUT ADDRESS			 */
+#InputAddressCF					{ padding:0px;}
+#InputAddressLeft				{ height:400px; padding-top:30px; }
+#InputAddressLeft p span		{ font-size:11px; }
+#InputAddressLeft p 			{ font-size:9px;}
+#InputAddressRight				{ height:400px; padding-top:30px; padding-left:0px }
+#InputAddressRight p span		{ font-size:11px; }
+#InputAddressRight p 			{ font-size:9px; }
+#InputAddressRight ul 			{ margin-top:-30px}
+#InputAddressRight ul li		{ font-size:9px;}
+.InputAddressInput				{ width:80px; height:30px; padding-left:5px; font-size:5px }
+.InputAddressSubmit				{ width:70px; height:20px; font-size:11px; margin-top:5px; margin-bottom:40px; }
+/* INPUT ADDRESS	(END)	 */
+/* DIABETES					 */
+#DiabetesCF						{ padding-bottom:60px; }
+#DiabetesContainer				{ }
+#DiabetesColumn					{ }
+#DiabetesRow					{ margin-top:50px; }
+#DiabetesRow	h2				{ }
+#DiabetesRow	p	span		{ font-size:12px}
+#DiabetesRow	p				{ margin:0px; padding:0px; font-size:10px; margin-left:70px}
+.circle							{ width:40px; height:40px; margin-right:30px; margin-top:20px}
+/* DIABETES			(END)    */	
+/* FOOTER					 */
+#FooterCF				{ padding-top:30px; padding-bottom:30px;}
+#FooterRow				{}
+#FooterColumn			{ }
+#FooterColumn	p		{ }
+.FooterHeading			{ font-size:20px; padding:0; margin:0; }
+.FooterHeadingLine		{ font-size:11px; }
+.FooterHeadingTwo		{ font-size:20px;  margin:0; padding-top:10px; }
+.FooterHeadingThree		{ font-size:30px; padding:0; margin:0; }
+footer					{ padding:0px; margin:0px; }
+footer p				{ font-size:22px; padding-top:5px;}
+footer p span			{ font-size:9px}
+/* FOOTER			(END)	 */
+/******************************************************/
+/***************** Mobile Landscape *******************/
+/******************************************************/
+@media only screen and (min-width : 480px) {
+/** BUTTONS     **/
+.button					{ padding:5px; font-size:11px; margin-top:15px}
+.buttonExclusive		{ padding:5px; margin-left:5px; font-size:11px;} 
+/** HEADINGS      */
+.Heading				{ font-size:18px;}
+/* N A V I G A T I O N       */
+.navbar-custom					 													{ padding-bottom:0px; margin-bottom:0px;}
+.navbar-nav li a			 														{  }
+.navbar-nav li a span		 														{ font-size:22px }
+.navbar-custom .navbar-brand 														{ font-size:22px} 
+	 /*NAVIGATION HOVER SETTINGS*/
+/* WELCOME BANNER			 */
+#WelcomeBannerCF				{ margin-top:0px; margin-bottom:0px;	}
+#WelcomeBannerContainer			{ 	}
+#WelcomeBannerColumnSix			{ padding-bottom:30px;}
+#WelcomeBannerColumnSix	 img	{}
+#WelcomeBannerColumnSix	 h1		{}
+#WelcomeBannerColumnSix	 p	span{ font-size:18px;}
+#WelcomeBannerColumnSix	 p		{ font-size:11px;}
+/* WELCOME BANNER	(END)    */
+/* SECTION ONE				 */
+#SectionOneContainer			{ margin-top:0px; margin-bottom:30px;}
+#SectionOneColumn				{ }
+#SectionOneColumnFour			{ }
+#SectionOneColumnFour img		{ margin-top:20px;}
+#SectionOneColumnSix h2			{ }
+#SectionOneColumnSix ul li		{ font-size:9px}
+#SectionOneColumnSix ul li	span {}
+#SectionOneColumnSix p			{ font-size:9px; }
+#ColumnSixSmallColumn			{ }
+#ColumnSixSmallColumn	img		{ height:20px; }
+#ColumnSixSmallColumn	p span	{ margin:0px; padding:0px; font-size:8px;}
+#ColumnSixSmallColumn	p		{ margin:0px; padding:0px; font-size:8px; }
+/* SECTION ONE		(END)	 */
+/* SQUARES					 */
+#SquaresCF						{ }
+#SquaresRow						{}
+#SquaresColumn					{ height:100px;}
+#SquaresColumn	h5				{ font-size:10px; padding-left:5px; }
+#SquaresColumn	p				{ font-size:7px; padding-left:5px;}
+#SquaresColumn	img				{ height:100%; width:100%;}
+/* SQUARES			(END)	 */
+/* SECTION TWO				 */
+#SectionTwoContainer			{ margin-top:30px; margin-bottom:30px;}
+#SectionTwoColumn				{ }
+#SectionTwoColumn h2			{}
+#SectionTwoColumn p span		{ font-size:9px}
+#SectionTwoColumn img			{ }
+#SectionTwoColumn p				{ font-size:9px;}
+/* SECTION TWO		(END)    */
+/* SALE BANNER				 */
+#SaleBannerCF					{  padding-top:60px; padding-bottom:60px; margin-top:30px; margin-bottom:60px}
+#SaleBannerContainer			{}
+#SaleBannerRow					{}
+#SaleBannerColumn				{}
+#SaleBannerColumn	img			{}
+.SaleBannerHeading				{ padding:0px; margin:0px; font-size:25px; margin-top:10px;}
+.SaleBannerP					{ padding:0px; margin:0px; font-size:12px;}
+#SaleBannerColumn ul 			{ margin-bottom:-30px;}
+#SaleBannerColumn ul li			{ padding-left:10px;}
+#SaleBannerColumn ul li img		{ }
+#SaleBannerColumn ul li	p		{ font-size:60px; margin-top:10px; }
+#SaleBannerColumn	p			{}
+#SaleBannerColumn	p	span	{}
+/* SALE BANNER		(END)	 */
+/* INPUT ADDRESS			 */
+#InputAddressCF					{ padding:0px;}
+#InputAddressLeft				{ height:400px; padding-top:10px; }
+#InputAddressLeft p span		{ font-size:18px; }
+#InputAddressLeft p 			{ font-size:11px; }
+#InputAddressRight				{ height:400px; padding-top:10px; }
+#InputAddressRight p span		{ font-size:16px; }
+#InputAddressRight p 			{ font-size:11px; }
+#InputAddressRight ul 			{ margin-top:-30px}
+#InputAddressRight ul li		{ font-size:11px;}
+.InputAddressInput				{ width:175px; height:40px; padding-left:5px; font-size:11px }
+.InputAddressSubmit				{ width:110px; height:40px; font-size:11px; margin-top:5px; margin-bottom:100px; }
+/* INPUT ADDRESS	(END)	 */
+/* FREE BANNER				 */
+#FreeBannerContainer			{  padding-top:60px; padding-bottom:60px;}
+#FreeBannerColumn				{  }
+.FreeBannerColumnHeader			{  height:50px; }
+.FreeBannerColumnPage			{  padding-top:25px;  }
+.FreeBannerColumnPage	p span	{  font-size:18px; }
+.FreeBannerColumnPage	p		{  font-size:10px; margin:0px; }
+.FreeBannerForm					{  padding-top:20px; padding-bottom:20px; }
+#FreeBannerFormHalf				{ }
+.FreeBannerLabel				{ font-size:10px; margin:0px 0px 0px 0px; padding:0px; }
+.FreeBannerInput				{ font-size:9px; margin:0px; height:30px; width:210px; padding:0px 0px 0px 5px; margin-bottom:10px; }
+.FreeBannerSubmit				{ height:40px; width:150px; font-size:18px; border-radius:5px; }
+/* FREE BANNER		(END)	 */
+/* PROMOTION POPUP			 */
+#promotion						{}
+.modal-header					{}
+#PromotionColumn				{}
+.modal-body						{}
+#PromotionColumn p span			{ font-size:18px; }
+#PromotionColumn p				{ font-size:10px; margin:0px; }
+.PromotionBannerForm			{ padding-top:20px; padding-bottom:20px;}
+.promotionLabel					{ margin:0px; font-size:10px }
+.promotionInput					{ font-size:9px; height:30px; width:210px; margin-bottom:15px; }
+.promotionSumbit				{ font-size:18px; height:40px; width:120px; }									
+/* PROMOTION POPUP  (END)	 */
+/* DIABETES					 */
+#DiabetesCF						{ padding-bottom:60px; }
+#DiabetesContainer				{ }
+#DiabetesColumn					{ }
+#DiabetesRow					{ margin-top:50px; }
+#DiabetesRow	h2				{ }
+#DiabetesRow	p	span		{ font-size:12px}
+#DiabetesRow	p				{ margin:0px; padding:0px; font-size:10px; margin-left:70px}
+.circle							{ width:40px; height:40px; margin-right:30px; margin-top:40px}
+/* DIABETES			(END)    */	
+
+/* FOOTER					 */
+#FooterCF				{ padding-top:30px; padding-bottom:30px;}
+#FooterRow				{}
+#FooterColumn			{ }
+#FooterColumn	p		{ }
+.FooterHeading			{ font-size:20px; padding:0; margin:0; }
+.FooterHeadingLine		{ font-size:11px; }
+.FooterHeadingTwo		{ font-size:20px; margin:0px; padding-top:10px}
+.FooterHeadingThree		{ font-size:30px; margin:0px; padding:0px; }
+footer					{ padding:0px; margin:0px; }
+footer p				{ font-size:22px; padding-top:5px;}
+footer p span			{ font-size:9px}
+/* FOOTER			(END)	 */
+}
+/****************************************************/
+/***************** Tablet Portrait ******************/
+/****************************************************/
+@media only screen and (min-width : 768px) {
+/** BUTTONS     **/
+.button					{ padding:10px; font-size:16px; margin-top:20px;}
+.buttonExclusive		{ padding:10px; margin-left:30px; font-size:16px;} 
+/** HEADINGS      */
+.Heading				{ font-size:38px;}
+.Heading				{ font-size:38px;}
+/* N A V I G A T I O N       */
+.navbar-custom					 													{ padding-bottom:0px; margin-bottom:0px;}
+.navbar-nav li a			 														{  }
+.navbar-nav li a span		 														{ font-size:22px }
+.navbar-custom .navbar-brand 														{ font-size:30px} 
+	 /*NAVIGATION HOVER SETTINGS*/
+.navbar-custom .navbar-brand:hover 													 { } 
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus { }
+.navbar-custom .navbar-nav > .active												 { }
+.navbar-custom .navbar-nav > .active a 												 { }
+	 /*NAVIGATION HOVER SETTINGS (END)*/
+/* N A V I G A T I O N (END) */
+/* WELCOME BANNER			 */
+#WelcomeBannerCF				{ margin-top:0px; margin-bottom:0px;	}
+#WelcomeBannerContainer			{ 	}
+#WelcomeBannerColumnSix			{ padding-top:30px; padding-bottom:30px;}
+#WelcomeBannerColumnSix	 img	{}
+#WelcomeBannerColumnSix	 h1		{}
+#WelcomeBannerColumnSix	 p	span{ font-size:24px;}
+#WelcomeBannerColumnSix	 p		{ font-size:16px;}
+/* WELCOME BANNER	(END)    */
+/* SECTION ONE				 */
+#SectionOneContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionOneColumn				{ }
+#SectionOneColumnFour			{ }
+#SectionOneColumnFour img		{ margin-top:20px;}
+#SectionOneColumnSix h2			{ }
+#SectionOneColumnSix ul li		{ font-size:14px}
+#SectionOneColumnSix ul li	span {}
+#SectionOneColumnSix p			{ font-size:14px}
+#ColumnSixSmallColumn			{ }
+#ColumnSixSmallColumn	img		{ height:40px }
+#ColumnSixSmallColumn	p span	{ margin:0px; padding:0px; font-size:12px}
+#ColumnSixSmallColumn	p		{ margin:0px; padding:0px; font-size:12px;}
+/* SECTION ONE		(END)	 */
+/* SQUARES					 */
+#SquaresCF						{ }
+#SquaresRow						{}
+#SquaresColumn					{ height:150px;}
+#SquaresColumn	h5				{ font-size:18px; padding-left:10px; }
+#SquaresColumn	p				{ font-size:12px; padding-left:10px; }
+#SquaresColumn	img				{ height:100%; width:100%;}
+/* SQUARES			(END)	 */
+/* SECTION TWO				 */
+#SectionTwoContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionTwoColumn				{ }
+#SectionTwoColumn h2			{}
+#SectionTwoColumn p span		{ font-size:14px}
+#SectionTwoColumn img			{ width:1000px}
+#SectionTwoColumn p				{ font-size:16px;}
+/* SECTION TWO		(END)    */
+/* SALE BANNER				 */
+#SaleBannerCF					{  padding-top:60px; padding-bottom:60px; margin-top:30px; margin-bottom:60px}
+#SaleBannerContainer			{}
+#SaleBannerRow					{}
+#SaleBannerColumn				{}
+#SaleBannerColumn	img			{}
+.SaleBannerHeading				{ padding:0px; margin:0px; font-size:25px;}
+.SaleBannerP					{ padding:0px; margin:0px; font-size:12px;}
+#SaleBannerColumn ul 			{ margin-bottom:-30px;}
+#SaleBannerColumn ul li			{ padding-left:10px;}
+#SaleBannerColumn ul li img		{ }
+#SaleBannerColumn ul li	p		{ font-size:60px; margin-top:10px; }
+#SaleBannerColumn	p			{}
+#SaleBannerColumn	p	span	{}
+/* SALE BANNER		(END)	 */
+/* INPUT ADDRESS			 */
+#InputAddressCF					{ padding:0px;}
+#InputAddressLeft				{ height:700px; padding-top:100px; }
+#InputAddressLeft p span		{ font-size:36px; }
+#InputAddressLeft p 			{ font-size:18px; }
+#InputAddressRight				{ height:700px; padding-top:100px; }
+#InputAddressRight p span		{ font-size:36px; }
+#InputAddressRight p 			{ font-size:16px; }
+#InputAddressRight ul li		{ font-size:16px; }
+.InputAddressInput				{ width:250px; height:40px; padding-left:10px; }
+.InputAddressSubmit				{ width:175px; height:40px; font-size:20px; margin-top:10px; margin-bottom:100px; }
+/* INPUT ADDRESS	(END)	 */
+/* FREE BANNER				 */
+#FreeBannerContainer			{  padding-top:60px; padding-bottom:60px;}
+#FreeBannerColumn				{  }
+.FreeBannerColumnHeader			{  height:50px; }
+.FreeBannerColumnPage			{  padding-top:25px;  }
+.FreeBannerColumnPage	p span	{  font-size:25px; }
+.FreeBannerColumnPage	p		{  font-size:16px; margin:0px; }
+.FreeBannerForm					{  padding-top:20px; padding-bottom:20px; }
+#FreeBannerFormHalf				{ }
+.FreeBannerLabel				{ font-size:14px; margin:0px 0px 0px 0px; padding:0px; }
+.FreeBannerInput				{ font-size:12px; margin:0px; height:30px; width:170px; padding:0px 0px 0px 5px; margin-bottom:20px; }
+.FreeBannerSubmit				{ height:40px; width:150px; font-size:18px; border-radius:5px; }
+/* FREE BANNER		(END)	 */
+/* PROMOTION POPUP			 */
+#promotion						{}
+.modal-header					{}
+#PromotionColumn				{}
+.modal-body						{}
+#PromotionColumn p span			{ font-size:22px; }
+#PromotionColumn p				{ font-size:12px; margin:0px; }
+.PromotionBannerForm			{ padding-top:20px; padding-bottom:20px;}
+.promotionLabel					{ margin:0px; font-size:12px }
+.promotionInput					{ font-size:12px; height:30px; width:170px; margin-bottom:15px; }
+.promotionSumbit				{ font-size:18px; height:40px; width:120px; }									
+/* PROMOTION POPUP  (END)	 */
+/* DIABETES					 */
+#DiabetesCF						{ padding-bottom:60px; }
+#DiabetesContainer				{ }
+#DiabetesColumn					{ }
+#DiabetesRow					{ margin-top:50px; }
+#DiabetesRow	h2				{ }
+#DiabetesRow	p	span		{ font-size:18px}
+#DiabetesRow	p				{ margin:0px; padding:0px; font-size:16px; margin-left:70px}
+.circle							{ width:40px; height:40px; margin-right:30px; margin-top:40px}
+/* DIABETES			(END)    */	
+/* FOOTER					 */
+#FooterCF				{ padding-top:30px; padding-bottom:30px;}
+#FooterRow				{}
+#FooterColumn			{ }
+#FooterColumn	p		{ }
+.FooterHeading			{ font-size:40px; 	 }
+.FooterHeadingLine		{ font-size:18px;  }
+.FooterHeadingTwo		{ font-size:30px;  padding-top:20px}
+.FooterHeadingThree		{ font-size:50px;  padding:0px; margin:0px; }
+footer					{ padding:0px; margin:0px; }
+footer p				{ font-size:22px; padding-top:5px;}
+footer p span			{ font-size:9px}
+/* FOOTER			(END)	 */
+}
+/****************************************************/
+/***************** Tablet Landscape******************/
+/****************************************************/
+@media only screen and (min-width : 992px) {
+/** BUTTONS     **/
+.button					{ padding:10px; font-size:16px; margin-top:20px;}
+.buttonExclusive		{ padding:10px; margin-left:30px; font-size:16px;} 
+/** HEADINGS      */
+.Heading				{ font-size:38px;}
+/* N A V I G A T I O N       */
+.navbar-custom					 													{ padding-bottom:0px; margin-bottom:0px;}
+.navbar-nav li a			 														{  }
+.navbar-nav li a span		 														{ font-size:22px }
+.navbar-custom .navbar-brand 														{ font-size:35px} 
+	 /*NAVIGATION HOVER SETTINGS*/
+.navbar-custom .navbar-brand:hover 													 { } 
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus { }
+.navbar-custom .navbar-nav > .active												 { }
+.navbar-custom .navbar-nav > .active a 												 { }
+	 /*NAVIGATION HOVER SETTINGS (END)*/
+/* N A V I G A T I O N (END) */
+.Heading				{ font-size:38px;}
+/* WELCOME BANNER			 */
+#WelcomeBannerCF				{ margin-top:0px; margin-bottom:0px;	}
+#WelcomeBannerContainer			{ 	}
+#WelcomeBannerColumnSix			{ padding-top:30px; padding-bottom:30px;}
+#WelcomeBannerColumnSix	 img	{}
+#WelcomeBannerColumnSix	 h1		{}
+#WelcomeBannerColumnSix	 p	span{ font-size:24px;}
+#WelcomeBannerColumnSix	 p		{ font-size:16px;}
+/* WELCOME BANNER	(END)    */
+/* SECTION ONE				 */
+#SectionOneContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionOneColumn				{ }
+#SectionOneColumnFour			{ }
+#SectionOneColumnFour img		{ margin-top:20px;}
+#SectionOneColumnSix h2			{ }
+#SectionOneColumnSix ul li		{ font-size:14px}
+#SectionOneColumnSix ul li	span {}
+#SectionOneColumnSix p			{ font-size:14px}
+#ColumnSixSmallColumn			{ }
+#ColumnSixSmallColumn	img		{ height:40px }
+#ColumnSixSmallColumn	p span	{ margin:0px; padding:0px; font-size:12px}
+#ColumnSixSmallColumn	p		{ margin:0px; padding:0px; font-size:12px;}
+/* SECTION ONE		(END)	 */
+/* SQUARES					 */
+#SquaresCF						{ }
+#SquaresRow						{}
+#SquaresColumn					{ height:250px; }
+#SquaresColumn	h5				{ font-size:20px; padding-left:10px; }
+#SquaresColumn	p				{ font-size:16px; padding-left:10px;}
+#SquaresColumn	img				{ height:100%; width:100%;}
+/* SQUARES			(END)	 */
+/* SECTION TWO				 */
+#SectionTwoContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionTwoColumn				{ }
+#SectionTwoColumn h2			{}
+#SectionTwoColumn p span		{ font-size:16px}
+#SectionTwoColumn img			{ width:1000px}
+#SectionTwoColumn p				{ font-size:16px;}
+/* SECTION TWO		(END)    */
+/* SALE BANNER				 */
+#SaleBannerCF					{  padding-top:60px; padding-bottom:60px; margin-top:30px; margin-bottom:60px}
+#SaleBannerContainer			{}
+#SaleBannerRow					{}
+#SaleBannerColumn				{}
+#SaleBannerColumn	img			{}
+.SaleBannerHeading				{ padding:0px; margin:0px; font-size:30px;}
+.SaleBannerP					{ padding:0px; margin:0px; font-size:14px;}
+#SaleBannerColumn ul 			{ margin-bottom:-30px;}
+#SaleBannerColumn ul li			{ padding-left:10px; font-size:30px;}
+#SaleBannerColumn ul li img		{ height:100px; width:150px;}
+#SaleBannerColumn ul li	p		{ font-size:50px; margin-top:30px; }
+#SaleBannerColumn	p			{}
+#SaleBannerColumn	p	span	{}
+/* SALE BANNER		(END)	 */
+/* INPUT ADDRESS			 */
+#InputAddressCF					{ padding:0px;}
+#InputAddressLeft				{ height:600px; padding-top:100px; }
+#InputAddressLeft p span		{ font-size:36px; }
+#InputAddressLeft p 			{ font-size:18px; }
+#InputAddressRight				{ height:600px; padding-top:100px; }
+#InputAddressRight p span		{ font-size:36px; }
+#InputAddressRight p 			{ font-size:16px; }
+#InputAddressRight ul li		{ font-size:16px; }
+.InputAddressInput				{ width:350px; height:40px; padding-left:10px; }
+.InputAddressSubmit				{ width:175px; height:40px; font-size:20px; margin-top:10px; margin-bottom:100px; }
+/* INPUT ADDRESS	(END)	 */
+/* FREE BANNER				 */
+#FreeBannerContainer			{  padding-top:60px; padding-bottom:60px;}
+#FreeBannerColumn				{  }
+.FreeBannerColumnHeader			{  height:50px; }
+.FreeBannerColumnPage			{  padding-top:25px;  }
+.FreeBannerColumnPage	p span	{  font-size:25px; }
+.FreeBannerColumnPage	p		{  font-size:16px; margin:0px; }
+.FreeBannerForm					{  padding-top:20px; padding-bottom:20px; }
+#FreeBannerFormHalf				{ }
+.FreeBannerLabel				{ font-size:14px; margin:0px 0px 0px 0px; padding:0px; }
+.FreeBannerInput				{ font-size:12px; margin:0px; height:30px; width:230px; padding:0px 0px 0px 5px; margin-bottom:20px; }
+.FreeBannerSubmit				{ height:40px; width:150px; font-size:18px; border-radius:5px; }
+/* FREE BANNER		(END)	 */
+/* PROMOTION POPUP			 */
+#promotion						{}
+.modal-header					{}
+#PromotionColumn				{}
+.modal-body						{}
+#PromotionColumn p span			{ font-size:22px; }
+#PromotionColumn p				{ font-size:12px; margin:0px; }
+.PromotionBannerForm			{ padding-top:20px; padding-bottom:20px;}
+.promotionLabel					{ margin:0px; font-size:12px }
+.promotionInput					{ font-size:12px; height:30px; width:170px; margin-bottom:15px; }
+.promotionSumbit				{ font-size:18px; height:40px; width:120px; }									
+/* PROMOTION POPUP  (END)	 */
+/* DIABETES					 */
+#DiabetesCF						{ padding-bottom:60px; }
+#DiabetesContainer				{ }
+#DiabetesColumn					{ }
+#DiabetesRow					{ margin-top:50px; }
+#DiabetesRow	h2				{ }
+#DiabetesRow	p	span		{ font-size:18px}
+#DiabetesRow	p				{ margin:0px; padding:0px; font-size:16px; margin-left:70px}
+.circle							{ width:40px; height:40px; margin-right:30px; margin-top:40px}
+/* DIABETES			(END)    */	
+/* FOOTER					 */
+#FooterCF				{ padding-top:30px; padding-bottom:30px;}
+#FooterRow				{}
+#FooterColumn			{ }
+#FooterColumn	p		{ }
+.FooterHeading			{ font-size:40px; 	 }
+.FooterHeadingLine		{ font-size:18px;  }
+.FooterHeadingTwo		{ font-size:30px;  padding-top:20px}
+.FooterHeadingThree		{ font-size:50px;  padding:0px; margin:0px; }
+footer					{ padding:0px; margin:0px; }
+footer p				{ font-size:22px; padding-top:5px;}
+footer p span			{ font-size:9px}
+/* FOOTER			(END)	 */
+}
+/****************************************************/
+/***************** Large Screens   ******************/
+/****************************************************/
+@media only screen  and (min-width : 1200px) {
+/** BUTTONS     **/
+.button					{ padding:10px; font-size:16px; margin-top:20px;}
+.buttonExclusive		{ padding:10px; margin-left:30px; font-size:16px;} 
+/** HEADINGS      */
+.Heading				{ font-size:38px;}
+/* N A V I G A T I O N       */
+.navbar-custom					 													{ padding-bottom:0px; margin-bottom:0px;}
+.navbar-nav li a			 														{  }
+.navbar-nav li a span		 														{ font-size:22px }
+.navbar-custom .navbar-brand 														{ font-size:30px} 
+	 /*NAVIGATION HOVER SETTINGS*/
+.navbar-custom .navbar-brand:hover 													 { } 
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus { }
+.navbar-custom .navbar-nav > .active												 { }
+.navbar-custom .navbar-nav > .active a 												 { }
+	 /*NAVIGATION HOVER SETTINGS (END)*/
+/* N A V I G A T I O N (END) */
+/* WELCOME BANNER			 */
+#WelcomeBannerCF				{ margin-top:0px; margin-bottom:0px;	}
+#WelcomeBannerContainer			{ 	}
+#WelcomeBannerColumnSix			{ padding-top:30px; padding-bottom:30px;}
+#WelcomeBannerColumnSix	 img	{}
+#WelcomeBannerColumnSix	 h1		{}
+#WelcomeBannerColumnSix	 p	span{ font-size:24px;}
+#WelcomeBannerColumnSix	 p		{ font-size:16px;}
+/* WELCOME BANNER	(END)    */
+/* SECTION ONE				 */
+#SectionOneContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionOneColumn				{ }
+#SectionOneColumnFour			{ }
+#SectionOneColumnFour img		{ margin-top:20px;}
+#SectionOneColumnSix h2			{ }
+#SectionOneColumnSix ul li		{ font-size:14px}
+#SectionOneColumnSix ul li	span {}
+#SectionOneColumnSix p			{ font-size:14px}
+#ColumnSixSmallColumn			{ }
+#ColumnSixSmallColumn	img		{ height:40px }
+#ColumnSixSmallColumn	p span	{ margin:0px; padding:0px; font-size:14px}
+#ColumnSixSmallColumn	p		{ margin:0px; padding:0px; font-size:14px;}
+/* SECTION ONE		(END)	 */
+/* SQUARES					 */
+#SquaresCF						{}
+#SquaresRow						{}
+#SquaresColumn					{ height:250px; }
+#SquaresColumn	h5				{ font-size:30px; padding-left:10px; }
+#SquaresColumn	p				{ font-size:18px; padding-left:10px;}
+#SquaresColumn	img				{ height:250px; width:100%;}
+/* SQUARES			(END)	 */
+/* SECTION TWO				 */
+#SectionTwoContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionTwoColumn				{ }
+#SectionTwoColumn h2			{}
+#SectionTwoColumn p span		{ font-size:16px}
+#SectionTwoColumn img			{ width:1000px}
+#SectionTwoColumn p				{ font-size:16px;}
+/* SECTION TWO		(END)    */
+/* SALE BANNER				 */
+#SaleBannerCF					{  padding-top:60px; padding-bottom:60px; margin-top:30px; margin-bottom:60px}
+#SaleBannerContainer			{}
+#SaleBannerRow					{}
+#SaleBannerColumn				{}
+#SaleBannerColumn	img			{}
+.SaleBannerHeading				{ padding:0px; margin:0px; font-size:30px;}
+.SaleBannerP					{ padding:0px; margin:0px; font-size:14px;}
+#SaleBannerColumn ul 			{ margin-bottom:-30px;}
+#SaleBannerColumn ul li			{ padding-left:10px; font-size:30px;}
+#SaleBannerColumn ul li img		{ height:100px; width:150px;}
+#SaleBannerColumn ul li	p		{ font-size:60px; margin-top:30px; }
+#SaleBannerColumn	p			{}
+#SaleBannerColumn	p	span	{}
+/* SALE BANNER		(END)	 */
+/* INPUT ADDRESS			 */
+#InputAddressCF					{ padding:0px;}
+#InputAddressLeft				{ height:500px; padding-top:100px; }
+#InputAddressLeft p span		{ font-size:36px; }
+#InputAddressLeft p 			{ font-size:18px; }
+#InputAddressRight				{ height:500px; padding-top:100px; }
+#InputAddressRight p span		{ font-size:36px; }
+#InputAddressRight p 			{ font-size:16px; }
+#InputAddressRight ul li		{ font-size:16px; }
+.InputAddressInput				{ width:350px; height:40px; padding-left:10px; }
+.InputAddressSubmit				{ width:175px; height:40px; font-size:20px; margin-top:10px; margin-bottom:100px; }
+/* INPUT ADDRESS	(END)	 */
+/* FREE BANNER				 */
+#FreeBannerContainer			{  padding-top:60px; padding-bottom:60px;}
+#FreeBannerColumn				{  }
+.FreeBannerColumnHeader			{  height:50px; }
+.FreeBannerColumnPage			{  padding-top:25px;  }
+.FreeBannerColumnPage	p span	{  font-size:25px; }
+.FreeBannerColumnPage	p		{  font-size:16px; margin:0px; }
+.FreeBannerForm					{  padding-top:20px; padding-bottom:20px; }
+#FreeBannerFormHalf				{ }
+.FreeBannerLabel				{ font-size:14px; margin:0px 0px 0px 0px; padding:0px; }
+.FreeBannerInput				{ font-size:12px; margin:0px; height:30px; width:200px; padding:0px 0px 0px 5px; margin-bottom:20px; }
+.FreeBannerSubmit				{ height:40px; width:150px; font-size:18px; border-radius:5px; }
+/* FREE BANNER		(END)	 */
+/* PROMOTION POPUP			 */
+#promotion						{}
+.modal-header					{}
+#PromotionColumn				{}
+.modal-body						{}
+#PromotionColumn p span			{ font-size:22px; }
+#PromotionColumn p				{ font-size:12px; margin:0px; }
+.PromotionBannerForm			{ padding-top:20px; padding-bottom:20px;}
+.promotionLabel					{ margin:0px; font-size:12px }
+.promotionInput					{ font-size:12px; height:30px; width:170px; margin-bottom:15px; }
+.promotionSumbit				{ font-size:18px; height:40px; width:120px; }									
+/* PROMOTION POPUP  (END)	 */
+/* DIABETES					 */
+#DiabetesCF						{ padding-bottom:60px; }
+#DiabetesContainer				{ }
+#DiabetesColumn					{ }
+#DiabetesRow					{ margin-top:50px; }
+#DiabetesRow	h2				{ }
+#DiabetesRow	p	span		{ font-size:18px}
+#DiabetesRow	p				{ margin:0px; padding:0px; font-size:16px; margin-left:70px}
+.circle							{ width:40px; height:40px; margin-right:30px; margin-top:40px}
+/* DIABETES			(END)    */	
+/* FOOTER					 */
+#FooterCF				{ padding-top:30px; padding-bottom:30px;}
+#FooterRow				{}
+#FooterColumn			{ }
+#FooterColumn	p		{ }
+.FooterHeading			{ font-size:40px; 	 }
+.FooterHeadingLine		{ font-size:18px;  }
+.FooterHeadingTwo		{ font-size:30px;  padding-top:20px}
+.FooterHeadingThree		{ font-size:50px;  padding:0px; margin:0px; }
+footer					{ padding:0px; margin:0px; }
+footer p				{ font-size:22px; padding-top:5px;}
+footer p span			{ font-size:9px}
+/* FOOTER			(END)	 */
+}
+
+
+
+
+
+

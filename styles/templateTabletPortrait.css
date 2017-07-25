@@ -1,0 +1,120 @@
+@charset "utf-8";
+/***************** Template Landing *****************/
+/***************** Tablet Portrait ******************/
+@media only screen and (min-width : 768px) {
+/** BUTTONS     **/
+.button					{ padding:10px; font-size:16px; margin-top:20px;}
+.buttonExclusive		{ padding:10px; margin-left:30px; font-size:16px;} 
+/** HEADINGS      */
+.Heading				{ font-size:38px;}
+.Heading				{ font-size:38px;}
+/* N A V I G A T I O N       */
+.navbar-custom					 													{ padding-bottom:0px; margin-bottom:0px;}
+.navbar-nav li a			 														{  }
+.navbar-nav li a span		 														{ font-size:22px }
+.navbar-custom .navbar-brand 														{ font-size:30px} 
+	 /*NAVIGATION HOVER SETTINGS*/
+.navbar-custom .navbar-brand:hover 													 { } 
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus { }
+.navbar-custom .navbar-nav > .active												 { }
+.navbar-custom .navbar-nav > .active a 												 { }
+	 /*NAVIGATION HOVER SETTINGS (END)*/
+/* N A V I G A T I O N (END) */
+/* WELCOME BANNER			 */
+#WelcomeBannerCF				{ margin-top:0px; margin-bottom:0px;	}
+#WelcomeBannerContainer			{ 	}
+#WelcomeBannerColumnSix			{ padding-top:30px; padding-bottom:30px;}
+#WelcomeBannerColumnSix	 img	{}
+#WelcomeBannerColumnSix	 h1		{}
+#WelcomeBannerColumnSix	 p	span{ font-size:24px;}
+#WelcomeBannerColumnSix	 p		{ font-size:16px;}
+/* WELCOME BANNER	(END)    */
+/* SECTION ONE				 */
+#SectionOneContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionOneColumn				{ }
+#SectionOneColumnFour			{ }
+#SectionOneColumnFour img		{ margin-top:20px;}
+#SectionOneColumnSix h2			{ }
+#SectionOneColumnSix ul li		{ font-size:14px}
+#SectionOneColumnSix ul li	span {}
+#SectionOneColumnSix p			{ font-size:14px}
+#ColumnSixSmallColumn			{ }
+#ColumnSixSmallColumn	img		{ height:40px }
+#ColumnSixSmallColumn	p span	{ margin:0px; padding:0px; font-size:12px}
+#ColumnSixSmallColumn	p		{ margin:0px; padding:0px; font-size:12px;}
+/* SECTION ONE		(END)	 */
+/* SQUARES					 */
+#SquaresCF						{ }
+#SquaresRow						{}
+#SquaresColumn					{ height:150px;}
+#SquaresColumn	h5				{ font-size:18px; padding-left:10px; }
+#SquaresColumn	p				{ font-size:12px; padding-left:10px; }
+#SquaresColumn	img				{ height:100%; width:100%;}
+/* SQUARES			(END)	 */
+/* SECTION TWO				 */
+#SectionTwoContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionTwoColumn				{ }
+#SectionTwoColumn h2			{}
+#SectionTwoColumn p span		{ font-size:14px}
+#SectionTwoColumn img			{ width:1000px}
+#SectionTwoColumn p				{ font-size:16px;}
+/* SECTION TWO		(END)    */
+/* SALE BANNER				 */
+#SaleBannerCF					{  padding-top:60px; padding-bottom:60px; margin-top:30px; margin-bottom:60px}
+#SaleBannerContainer			{}
+#SaleBannerRow					{}
+#SaleBannerColumn				{}
+#SaleBannerColumn	img			{}
+.SaleBannerHeading				{ padding:0px; margin:0px; font-size:25px;}
+.SaleBannerP					{ padding:0px; margin:0px; font-size:12px;}
+#SaleBannerColumn ul 			{ margin-bottom:-30px;}
+#SaleBannerColumn ul li			{ padding-left:10px;}
+#SaleBannerColumn ul li img		{ }
+#SaleBannerColumn ul li	p		{ font-size:60px; margin-top:10px; }
+#SaleBannerColumn	p			{}
+#SaleBannerColumn	p	span	{}
+/* SALE BANNER		(END)	 */
+/* INPUT ADDRESS			 */
+#InputAddressCF					{ padding:0px;}
+#InputAddressLeft				{ height:700px; padding-top:100px; }
+#InputAddressLeft p span		{ font-size:36px; }
+#InputAddressLeft p 			{ font-size:18px; }
+#InputAddressRight				{ height:700px; padding-top:100px; }
+#InputAddressRight p span		{ font-size:36px; }
+#InputAddressRight p 			{ font-size:16px; }
+#InputAddressRight ul li		{ font-size:16px; }
+.InputAddressInput				{ width:250px; height:40px; padding-left:10px; }
+.InputAddressSubmit				{ width:175px; height:40px; font-size:20px; margin-top:10px; margin-bottom:100px; }
+/* INPUT ADDRESS	(END)	 */
+/* DIABETES					 */
+#DiabetesCF						{ padding-bottom:60px; }
+#DiabetesContainer				{ }
+#DiabetesColumn					{ }
+#DiabetesRow					{ margin-top:50px; }
+#DiabetesRow	h2				{ }
+#DiabetesRow	p	span		{ font-size:18px}
+#DiabetesRow	p				{ margin:0px; padding:0px; font-size:16px; margin-left:70px}
+.circle							{ width:40px; height:40px; margin-right:30px; margin-top:40px}
+/* DIABETES			(END)    */	
+/* FOOTER					 */
+#FooterCF				{ padding-top:30px; padding-bottom:30px;}
+#FooterRow				{}
+#FooterColumn			{ }
+#FooterColumn	p		{ }
+.FooterHeading			{ font-size:40px; 	 }
+.FooterHeadingLine		{ font-size:18px;  }
+.FooterHeadingTwo		{ font-size:30px;  padding-top:20px}
+.FooterHeadingThree		{ font-size:50px;  padding:0px; margin:0px; }
+footer					{ padding:0px; margin:0px; }
+footer p				{ font-size:22px; padding-top:5px;}
+footer p span			{ font-size:9px}
+/* FOOTER			(END)	 */
+
+
+
+
+
+
+
+}
+

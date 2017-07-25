@@ -1,0 +1,422 @@
+@charset "utf-8";
+/**			DAYLIGHT TEMPLATE		**/
+*					{ margin:0; padding:0; border:0; outline:0;}
+html, body			{ }
+/** COLORS 		**/
+.colorWhite			{ background-color:#F0EFEA; }
+.colorGray			{ color:#2C3C39; }
+.colorGrayBG		{ background-color:#2C3C39; color:#F0EFEA; }
+/** BUTTONS     **/
+.button				{ border:1px solid #2C3C39; background-color:rgba(255,130,25,.0); border-radius:5px; font-family: 'Montserrat', sans-serif;}
+.buttonExclusive	{ border:1px solid #2C3C39; background-color:#2C3C39; color:#F0EFEA; border-radius:5px; font-family: 'Montserrat', sans-serif;} 
+.button:hover			{ }
+.buttonExclusive:hover  { background-color:#5FA277;} 
+/** HEADINGS      */
+.Heading				{ font-family: 'Baloo Tamma', cursive; color:#2C3C39}
+/***************** Default Styles *******************/
+/* N A V I G A T I O N       */
+.navbar-custom					 													{ background-color:#000;}
+.navbar-nav li a			 														{ color:#2C3C39; font-family: 'Montserrat', sans-serif; }
+.navbar-nav li a span		 														{ color:#F00; font-family: 'Montserrat', sans-serif;}
+.navbar-custom .navbar-brand 														{ color:#2C3C39; font-family: 'Courgette', cursive; } 
+	 /*NAVIGATION HOVER SETTINGS*/
+.navbar-custom .navbar-brand:hover 													 { color:#2C3C39;} 
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus { background-color: #F0EFEA;  color: #2C3C39; }
+.navbar-custom .navbar-nav > .active												 { color:#FFF; background:#fff; }
+.navbar-custom .navbar-nav > .active a 												 { color:#FFF;  background:#FC4646; }
+	 /*NAVIGATION HOVER SETTINGS (END)*/
+/* N A V I G A T I O N (END) */
+/* WELCOME BANNER			 */
+#WelcomeBannerCF				{ background-color:#F0EFEA; }
+#WelcomeBannerContainer			{ }
+#WelcomeBannerColumnSix			{ text-align:center;}
+#WelcomeBannerColumnSix	 img	{}
+#WelcomeBannerColumnSix	 h1		{ padding:0px; margin:0px}
+#WelcomeBannerColumnSix	 p	span{ color:#F00; padding:0px; margin:0px}
+#WelcomeBannerColumnSix	 p		{ font-family: 'Montserrat', sans-serif; padding:0px; margin:0px}
+/* WELCOME BANNER	(END)    */
+/* SECTION ONE				 */
+#SectionOneContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionOneColumn				{ }
+#SectionOneColumnFour			{ }
+#SectionOneColumnFour img		{ }
+#SectionOneColumnSix h2			{ }
+#SectionOneColumnSix ul li		{ color:#F00; list-style-type:none; font-family: 'Montserrat', sans-serif;}
+#SectionOneColumnSix ul li	span {}
+#SectionOneColumnSix p			{ font-family: 'Montserrat', sans-serif;}
+#ColumnSixSmallColumn			{ text-align:center;}
+#ColumnSixSmallColumn	img		{ }
+#ColumnSixSmallColumn	p span	{ color:#F00; }
+#ColumnSixSmallColumn	p		{ font-family: 'Montserrat', sans-serif;}
+/* SECTION ONE		(END)	 */
+/* SQUARES					 */
+#SquaresCF						{ }
+#SquareOutline					{ padding:0; height:250px;  height:300px; }
+#SquareOutline	img				{ width:100%; height:100%;}
+#SquareOutline	h5				{ color:#FFF; font-weight:bold; font-family: 'Audiowide', cursive; }
+#SquareOutline  p				{ color:#FFF; font-family: 'Montserrat', sans-serif;}
+/* SQUARES			(END)	 */
+/* SECTION TWO				 */
+#SectionTwoContainer			{ }
+#SectionTwoColumn				{ text-align:center;}
+#SectionTwoColumn h2			{}
+#SectionTwoColumn p span		{ }
+#SectionTwoColumn img			{ }
+#SectionTwoColumn p				{ font-family: 'Montserrat', sans-serif;}
+/* SECTION TWO		(END)    */
+/* SALE BANNER				 */
+#SaleBannerCF					{  background-color:#5FA277}
+#SaleBannerContainer			{}
+#SaleBannerRow					{ }
+#SaleBannerColumn				{}
+#SaleBannerColumn	img			{ }
+#SaleBannerColumn	p			{ }
+#SaleBannerColumn	p	span	{ font-family: 'Montserrat', sans-serif; color:#fff}
+#SaleBannerColumn	p			{ color:#fff}
+/* SALE BANNER		(END)	 */
+/* PRODUCT					 */
+#ProductContainer				{ }
+.col-item						{    border: 1px solid #E1E1E1; border-radius: 5px; background: #FFF; }
+.col-item .photo img			{	 margin: 0 auto; width: 100%;}
+.col-item .info					{	 padding: 10px; border-radius: 0 0 5px 5px; margin-top: 1px;}
+.col-item:hover .info 			{    background-color: #F5F5DC;}
+.col-item .price				{   /*width: 50%;*/   float: left;   margin-top: 5px;}
+.col-item .price h5				{    line-height: 20px;    margin: 0; }
+.price-text-color				{	  color: #219FD1; }
+.col-item .info .rating			{     color: #777;   }
+.col-item .rating				{    /*width: 50%;*/  float: left; font-size: 17px; text-align: right; line-height: 52px;  margin-bottom: 10px; height: 52px; }
+.col-item .separator			{    border-top: 1px solid #E1E1E1; }
+.clear-left						{    clear: left; }
+.col-item .separator p			{    line-height: 20px;    margin-bottom: 0;    margin-top: 10px;    text-align: center; }
+.col-item .separator p i		{    margin-right: 5px; }
+.col-item .btn-add				{	 width: 50%;    float: left; }
+.col-item .btn-add				{    border-right: 1px solid #E1E1E1; }
+.col-item .btn-details			{    width: 50%;    float: left;    padding-left: 10px; }
+.controls						{    margin-top: 20px; }
+[data-slide="prev"]				{    margin-right: 10px; }
+/* PRODUCT			(END)    */
+/* INPUT ADDRESS			 */
+#InputAddressCF					{ }
+#InputAddressLeft				{ background-color:#B1D691; }
+#InputAddressLeft p span		{ color:#fff; font-weight:bold; font-family: 'Acme', sans-serif;}
+#InputAddressLeft p 			{ text-align:justify; color:#fff; font-family: 'Montserrat', sans-serif; }
+#InputAddressRight				{ background-color:#5FA277; text-align:right; }
+#InputAddressRight p span		{ color:#fff; font-weight:bold; font-family: 'Acme', sans-serif;}
+#InputAddressRight p 			{ color:#fff; font-family: 'Montserrat', sans-serif;}
+#InputAddressRight ul li		{ list-style-type:none; color:#fff; font-family: 'Montserrat', sans-serif; }
+.InputAddressInput				{ font-family: 'Montserrat', sans-serif;}
+.InputAddressSubmit				{ background-color:#5FA277; border:1px solid #fff; color:#fff; font-family: 'Montserrat', sans-serif;}
+/* INPUT ADDRESS	(END)	 */
+/* DIABETES					 */
+#DiabetesCF						{ background-color:#F0EFEA; }
+#DiabetesContainer				{ }
+#DiabetesColumn					{ }
+#DiabetesRow					{ }
+#DiabetesRow	h2				{ text-align:center;}
+#DiabetesRow	p	span		{ font-weight:bold; font-family: 'Montserrat', sans-serif; }
+#DiabetesRow	p				{ color:#000;  font-family: 'Montserrat', sans-serif; }
+.circle							{ background-color:#5FA277; border-radius:50px; float:left; }
+/* DIABETES			(END)    */	
+/* FOOTER					 */
+#FooterCF						{ background-color:#5FA277; }
+#FooterContainer				{ }
+#FooterRow						{}
+#FooterRow p					{ }
+#FooterRow p span				{ }
+.footerHeadingOne				{ font-family: 'Baloo Tamma',sans-serif; text-align:center; color:#fff; }
+.footerHeadingTwo				{ font-family: 'Baloo Tamma',sans-serif; text-align:center; color:#fff; }
+.footerHeadingLine				{ font-family: 'Montserrat', sans-serif; text-align:center; color:#fff; }
+footer							{ background-color:#2C3C39; }
+footer p						{ color:#fff; font-family: 'Courgette', cursive;}
+footer p span					{ color:#fff; font-family: 'Montserrat', sans-serif; }
+/* FOOTER			(END)	 */
+/***************** MOBILE PORTRAIT*******************/
+
+/** BUTTONS     **/
+.button					{ padding:5px; font-size:8px;}
+.buttonExclusive		{ padding:5px; margin-left:0px; font-size:8px;} 
+/** HEADINGS      */
+.Heading				{ font-size:18px;}
+/* N A V I G A T I O N       */
+.navbar-custom					 													{ padding-bottom:0px; margin-bottom:0px;}
+.navbar-nav li a			 														{  }
+.navbar-nav li a span		 														{ font-size:22px }
+.navbar-custom .navbar-brand 														{ font-size:22px} 
+	 /*NAVIGATION HOVER SETTINGS*/
+.navbar-custom .navbar-brand:hover 													 { } 
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus { }
+.navbar-custom .navbar-nav > .active												 { }
+.navbar-custom .navbar-nav > .active a 												 { }
+	 /*NAVIGATION HOVER SETTINGS (END)*/
+/* N A V I G A T I O N (END) */
+/* WELCOME BANNER			 */
+#WelcomeBannerCF				{ margin-top:0px; margin-bottom:0px;	}
+#WelcomeBannerContainer			{ 	}
+#WelcomeBannerColumnSix			{ padding-top:30px; padding-bottom:30px;}
+#WelcomeBannerColumnSix	 img	{}
+#WelcomeBannerColumnSix	 h1		{}
+#WelcomeBannerColumnSix	 p	span{ font-size:18px;}
+#WelcomeBannerColumnSix	 p		{ font-size:12px;}
+/* WELCOME BANNER	(END)    */
+/* SECTION ONE				 */
+#SectionOneContainer			{ margin-top:0px; margin-bottom:0px;}
+#SectionOneColumn				{ }
+#SectionOneColumnFour			{ }
+#SectionOneColumnFour img		{ margin-top:20px;}
+#SectionOneColumnSix h2			{ }
+#SectionOneColumnSix ul li		{ font-size:9px}
+#SectionOneColumnSix ul li	span {}
+#SectionOneColumnSix p			{ font-size:9px; }
+#ColumnSixSmallColumn			{ }
+#ColumnSixSmallColumn	img		{ height:20px; }
+#ColumnSixSmallColumn	p span	{ margin:0px; padding:0px; font-size:5px;}
+#ColumnSixSmallColumn	p		{ margin:0px; padding:0px; font-size:5px; }
+/* SECTION ONE		(END)	 */
+/* SQUARES					 */
+#SquaresCF						{ }
+#SquareOutline					{ padding:0; height:250px }
+#SquareOutline	img				{ }
+#SquareOutline	h5				{ font-size:36px; padding:10px;}
+#SquareOutline  p				{ font-size:18px;  padding:10px;}
+/* SQUARES			(END)	 */
+/* SECTION TWO				 */
+#SectionTwoContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionTwoColumn				{ }
+#SectionTwoColumn h2			{}
+#SectionTwoColumn p span		{ font-size:16px}
+#SectionTwoColumn img			{ width:1000px}
+#SectionTwoColumn p				{ font-size:16px;}
+/* SECTION TWO		(END)    */
+/* SALE BANNER				 */
+#SaleBannerCF					{  margin-top:60px; margin-bottom:60px; padding-top:30px; padding-bottom:30px;}
+#SaleBannerContainer			{}
+#SaleBannerRow					{ }
+#SaleBannerColumn				{}
+#SaleBannerColumn	img			{ }
+#SaleBannerColumn	p			{ }
+#SaleBannerColumn	p	span	{ }
+#SaleBannerColumn	p			{ }
+/* SALE BANNER		(END)	 */
+/* PRODUCT					 */
+#ProductContainer				{ padding-top:30px; padding-bottom:60px; }
+.col-item						{    border: 1px solid #E1E1E1; border-radius: 5px; background: #FFF; }
+.col-item .photo img			{	 margin: 0 auto; width: 100%;}
+.col-item .info					{	 padding: 10px; border-radius: 0 0 5px 5px; margin-top: 1px;}
+.col-item:hover .info 			{    background-color: #F5F5DC;}
+.col-item .price				{   /*width: 50%;*/   float: left;   margin-top: 5px;}
+.col-item .price h5				{    line-height: 20px;    margin: 0; }
+.price-text-color				{	  color: #219FD1; }
+.col-item .info .rating			{     color: #777;   }
+.col-item .rating				{    /*width: 50%;*/  float: left; font-size: 17px; text-align: right; line-height: 52px;  margin-bottom: 10px; height: 52px; }
+.col-item .separator			{    border-top: 1px solid #E1E1E1; }
+.clear-left						{    clear: left; }
+.col-item .separator p			{    line-height: 20px;    margin-bottom: 0;    margin-top: 10px;    text-align: center; }
+.col-item .separator p i		{    margin-right: 5px; }
+.col-item .btn-add				{	 width: 50%;    float: left; }
+.col-item .btn-add				{    border-right: 1px solid #E1E1E1; }
+.col-item .btn-details			{    width: 50%;    float: left;    padding-left: 10px; }
+.controls						{    margin-top: 20px; }
+[data-slide="prev"]				{    margin-right: 10px; }
+/* PRODUCT			(END)    */
+/* INPUT ADDRESS			 */
+#InputAddressCF					{ padding:0px;}
+#InputAddressLeft				{ height:700px; padding-top:100px; }
+#InputAddressLeft p span		{ font-size:36px; }
+#InputAddressLeft p 			{ font-size:18px; }
+#InputAddressRight				{ height:700px; padding-top:100px; }
+#InputAddressRight p span		{ font-size:36px; }
+#InputAddressRight p 			{ font-size:16px; }
+#InputAddressRight ul li		{ font-size:16px; }
+.InputAddressInput				{ width:350px; height:40px; padding-left:10px; }
+.InputAddressSubmit				{ width:175px; height:40px; font-size:20px; margin-top:10px; margin-bottom:100px; }
+/* INPUT ADDRESS	(END)	 */
+/* DIABETES					 */
+#DiabetesCF						{ padding-bottom:60px; }
+#DiabetesContainer				{ }
+#DiabetesColumn					{ }
+#DiabetesRow					{ margin-top:50px; }
+#DiabetesRow	h2				{ }
+#DiabetesRow	p	span		{ font-size:18px}
+#DiabetesRow	p				{ margin:0px; padding:0px; font-size:16px; margin-left:70px}
+.circle							{ width:40px; height:40px; margin-right:30px; margin-top:40px}
+/* DIABETES			(END)    */	
+/* FOOTER					 */
+#FooterCF						{ padding-top:60px; padding-bottom:60px;  }
+#FooterContainer				{ }
+#FooterRow						{}
+#FooterRow p					{ padding:0px; margin:0px;}
+#FooterRow p span				{ padding:0px; margin:0px;}
+.footerHeadingOne				{ font-size:35px; padding:0px; margin:0px;}
+.footerHeadingTwo				{ font-size:20px; padding:0px; margin:0px;}
+.footerHeadingLine				{ font-size:18px; padding:0px; margin:0px;}
+footer							{ height:65px;}
+footer p						{ font-size:30px; padding-top:10px; }
+footer p span			{ font-size:14px; padding-top:5px; margin-left:30px;}
+
+/* FOOTER			(END)	 */
+
+
+
+
+
+
+/***************** MOBILE LANDSCAPE*******************/
+@media only screen and (min-width : 480px) {
+
+
+
+
+
+
+
+}
+
+/***************** TABLET PORTRAIT*******************/
+@media only screen and (min-width : 768px) {
+
+
+
+
+
+
+
+}
+
+/***************** TABLET SCREEN LANDSCAPE*******************/
+@media only screen and (min-width : 992px) {
+}
+
+/***************** LARGE SCREEN *******************/
+@media only screen  and (min-width : 1200px) {
+/** BUTTONS     **/
+.button					{ padding:10px; font-size:16px;}
+.buttonExclusive		{ padding:10px; margin-left:30px; font-size:16px;} 
+/** HEADINGS      */
+.Heading				{ font-size:38px;}
+/* N A V I G A T I O N       */
+.navbar-custom					 													{ padding-bottom:0px; margin-bottom:0px;}
+.navbar-nav li a			 														{  }
+.navbar-nav li a span		 														{ font-size:22px }
+.navbar-custom .navbar-brand 														{ font-size:30px} 
+	 /*NAVIGATION HOVER SETTINGS*/
+.navbar-custom .navbar-brand:hover 													 { } 
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus { }
+.navbar-custom .navbar-nav > .active												 { }
+.navbar-custom .navbar-nav > .active a 												 { }
+	 /*NAVIGATION HOVER SETTINGS (END)*/
+/* N A V I G A T I O N (END) */
+/* WELCOME BANNER			 */
+#WelcomeBannerCF				{ margin-top:0px; margin-bottom:0px;	}
+#WelcomeBannerContainer			{ 	}
+#WelcomeBannerColumnSix			{ padding-top:30px; padding-bottom:30px;}
+#WelcomeBannerColumnSix	 img	{}
+#WelcomeBannerColumnSix	 h1		{}
+#WelcomeBannerColumnSix	 p	span{ font-size:24px;}
+#WelcomeBannerColumnSix	 p		{ font-size:16px;}
+/* WELCOME BANNER	(END)    */
+/* SECTION ONE				 */
+#SectionOneContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionOneColumn				{ }
+#SectionOneColumnFour			{ }
+#SectionOneColumnFour img		{ margin-top:20px;}
+#SectionOneColumnSix h2			{ }
+#SectionOneColumnSix ul li		{ font-size:14px}
+#SectionOneColumnSix ul li	span {}
+#SectionOneColumnSix p			{ font-size:14px}
+#ColumnSixSmallColumn			{ }
+#ColumnSixSmallColumn	img		{ }
+#ColumnSixSmallColumn	p span	{ margin:0px; padding:0px;}
+#ColumnSixSmallColumn	p		{ margin:0px; padding:0px;}
+/* SECTION ONE		(END)	 */
+/* SQUARES					 */
+#SquaresCF						{ }
+#SquareOutline					{ padding:0; height:250px }
+#SquareOutline	img				{ }
+#SquareOutline	h5				{ font-size:36px; padding:10px;}
+#SquareOutline  p				{ font-size:18px;  padding:10px;}
+/* SQUARES			(END)	 */
+/* SECTION TWO				 */
+#SectionTwoContainer			{ margin-top:60px; margin-bottom:60px;}
+#SectionTwoColumn				{ }
+#SectionTwoColumn h2			{}
+#SectionTwoColumn p span		{ font-size:16px}
+#SectionTwoColumn img			{ width:1000px}
+#SectionTwoColumn p				{ font-size:16px;}
+/* SECTION TWO		(END)    */
+/* SALE BANNER				 */
+#SaleBannerCF					{  margin-top:60px; margin-bottom:60px; padding-top:30px; padding-bottom:30px;}
+#SaleBannerContainer			{}
+#SaleBannerRow					{ }
+#SaleBannerColumn				{}
+#SaleBannerColumn	img			{ }
+#SaleBannerColumn	p			{ }
+#SaleBannerColumn	p	span	{ }
+#SaleBannerColumn	p			{ }
+/* SALE BANNER		(END)	 */
+/* PRODUCT					 */
+#ProductContainer				{ padding-top:30px; padding-bottom:60px; }
+.col-item						{    border: 1px solid #E1E1E1; border-radius: 5px; background: #FFF; }
+.col-item .photo img			{	 margin: 0 auto; width: 100%;}
+.col-item .info					{	 padding: 10px; border-radius: 0 0 5px 5px; margin-top: 1px;}
+.col-item:hover .info 			{    background-color: #F5F5DC;}
+.col-item .price				{   /*width: 50%;*/   float: left;   margin-top: 5px;}
+.col-item .price h5				{    line-height: 20px;    margin: 0; }
+.price-text-color				{	  color: #219FD1; }
+.col-item .info .rating			{     color: #777;   }
+.col-item .rating				{    /*width: 50%;*/  float: left; font-size: 17px; text-align: right; line-height: 52px;  margin-bottom: 10px; height: 52px; }
+.col-item .separator			{    border-top: 1px solid #E1E1E1; }
+.clear-left						{    clear: left; }
+.col-item .separator p			{    line-height: 20px;    margin-bottom: 0;    margin-top: 10px;    text-align: center; }
+.col-item .separator p i		{    margin-right: 5px; }
+.col-item .btn-add				{	 width: 50%;    float: left; }
+.col-item .btn-add				{    border-right: 1px solid #E1E1E1; }
+.col-item .btn-details			{    width: 50%;    float: left;    padding-left: 10px; }
+.controls						{    margin-top: 20px; }
+[data-slide="prev"]				{    margin-right: 10px; }
+/* PRODUCT			(END)    */
+/* INPUT ADDRESS			 */
+#InputAddressCF					{ padding:0px;}
+#InputAddressLeft				{ height:700px; padding-top:100px; }
+#InputAddressLeft p span		{ font-size:36px; }
+#InputAddressLeft p 			{ font-size:18px; }
+#InputAddressRight				{ height:700px; padding-top:100px; }
+#InputAddressRight p span		{ font-size:36px; }
+#InputAddressRight p 			{ font-size:16px; }
+#InputAddressRight ul li		{ font-size:16px; }
+.InputAddressInput				{ width:350px; height:40px; padding-left:10px; }
+.InputAddressSubmit				{ width:175px; height:40px; font-size:20px; margin-top:10px; margin-bottom:100px; }
+/* INPUT ADDRESS	(END)	 */
+/* DIABETES					 */
+#DiabetesCF						{ padding-bottom:60px; }
+#DiabetesContainer				{ }
+#DiabetesColumn					{ }
+#DiabetesRow					{ margin-top:50px; }
+#DiabetesRow	h2				{ }
+#DiabetesRow	p	span		{ font-size:18px}
+#DiabetesRow	p				{ margin:0px; padding:0px; font-size:16px; margin-left:70px}
+.circle							{ width:40px; height:40px; margin-right:30px; margin-top:40px}
+/* DIABETES			(END)    */	
+/* FOOTER					 */
+#FooterCF						{ padding-top:60px; padding-bottom:60px;  }
+#FooterContainer				{ }
+#FooterRow						{}
+#FooterRow p					{ padding:0px; margin:0px;}
+#FooterRow p span				{ padding:0px; margin:0px;}
+.footerHeadingOne				{ font-size:35px; padding:0px; margin:0px;}
+.footerHeadingTwo				{ font-size:20px; padding:0px; margin:0px;}
+.footerHeadingLine				{ font-size:18px; padding:0px; margin:0px;}
+footer							{ height:65px;}
+footer p						{ font-size:30px; padding-top:10px; }
+footer p span			{ font-size:14px; padding-top:5px; margin-left:30px;}
+
+/* FOOTER			(END)	 */
+
+
+
+
+
+
+
+
+
+}
